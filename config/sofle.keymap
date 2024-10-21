@@ -77,11 +77,11 @@
 
         sym_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans          &trans           &trans        &trans                &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &kp GRAVE       &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &kp MINUS       &kp DOLLAR       &kp PERCENT   &kp CARET             &kp EQUAL              &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp TILDE  &kp UNDERSCORE  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp MINUS              &trans
+                &trans  &trans  &trans  &trans  &trans    &trans     &trans          &trans           &trans        &trans
             >;
 
             label = "sym";
